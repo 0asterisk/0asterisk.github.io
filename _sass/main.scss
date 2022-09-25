@@ -18,6 +18,14 @@ img {
   margin-bottom: 1rem;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 .navbar {
   margin-bottom: 2rem;
   border-bottom: 0.125rem solid hsl(0, 0%, 30%);
