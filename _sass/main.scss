@@ -18,6 +18,7 @@ img {
   margin-bottom: 1rem;
 }
 
+// 링크 hover시 underline
 a {
   text-decoration: none;
 }
@@ -26,6 +27,9 @@ a:hover {
   text-decoration: underline;
 }
 
+h1 {
+  font-weight: 600;
+}
 .navbar {
   margin-bottom: 2rem;
   border-bottom: 0.125rem solid hsl(0, 0%, 30%);
