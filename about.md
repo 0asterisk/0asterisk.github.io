@@ -8,10 +8,12 @@ permalink: /about/
 
 enjoying programming web
 
-### What I Can Do ✊
+
+### What I Can Do ✊
 
 HTML & CSS JavaScript
 
-### Contact 📥
+
+### Contact 📥
 
 [crag-dune0r@icloud.com](mailto:crag-dune0r@icloud.com)
