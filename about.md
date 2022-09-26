@@ -4,12 +4,14 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+### Me 😉
 
-### More Information
+enjoying programming web
 
-A place to include any other types of information that you'd like to include about yourself.
+### What I Can Do ✊
 
-### Contact me
+HTML & CSS JavaScript
 
-[email@domain.com](mailto:email@domain.com)
+### Contact 📥
+
+[crag-dune0r@icloud.com](mailto:crag-dune0r@icloud.com)
