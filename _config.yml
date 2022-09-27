@@ -50,6 +50,8 @@ footer-links:
   rss: # just type anything here for a working RSS icon
   twitter:
 
+future: true
+
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
