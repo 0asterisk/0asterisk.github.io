@@ -30,9 +30,22 @@ a:hover {
 h1 {
   font-weight: 600;
 }
+
+h3 {
+  margin-top: 1.5rem;
+}
+
 .navbar {
   margin-bottom: 2rem;
   border-bottom: 0.125rem solid hsl(0, 0%, 30%);
+}
+
+.navbar-brand {
+  font-weight: 800;
+}
+
+.navbar-toggler {
+  padding: 0px;
 }
 
 .archive-year {
