@@ -31,7 +31,9 @@ h1 {
   font-weight: 600;
 }
 
-h3 {
+h2,
+h3,
+h4 {
   margin-top: 1.5rem;
 }
 
@@ -124,7 +126,7 @@ pre.highlight {
   .container-lg,
   .container-md,
   .container-sm {
-    max-width: 720px;
+    max-width: 960px;
   }
 }
 @media (min-width: 1200px) {
@@ -133,7 +135,7 @@ pre.highlight {
   .container-md,
   .container-sm,
   .container-xl {
-    max-width: 720px;
+    max-width: 1080px;
   }
 }
 @media (min-width: 1400px) {
@@ -143,7 +145,7 @@ pre.highlight {
   .container-sm,
   .container-xl,
   .container-xxl {
-    max-width: 720px;
+    max-width: 1080px;
   }
 }
 
