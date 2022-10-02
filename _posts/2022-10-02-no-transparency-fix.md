@@ -14,6 +14,7 @@ subtitle: 설정에서 켜도 안되면 레지스트리를 건드리면 쉽다
 
 ## 해결 방법[^1]  
 ![](/assets/images/221002_1/2.png)
+<br>
 레지스트리 편집기[^2]를 켜고 다음 경로로 이동한다:  
 `컴퓨터\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\Dwm`
 <br><br>
