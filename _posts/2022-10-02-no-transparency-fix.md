@@ -23,7 +23,6 @@ subtitle: 설정에서 켜도 안되면 레지스트리를 건드리면 쉽다
 <br/>
 
 ## Sources / Footnotes
-<br>
 
 [^1]: https://www.elevenforum.com/t/transparency-effects-not-working.1568/  
 [^2]: 윈도우 검색창에서 `regedit` 검색
