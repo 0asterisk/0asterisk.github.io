@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://nvglow.github.io/sitemap.xml

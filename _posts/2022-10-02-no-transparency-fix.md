@@ -2,6 +2,9 @@
 layout: post
 title: 윈도우 11에서 투명 효과가 안될 때 해결 방법
 subtitle: 설정에서 켜도 안되면 레지스트리를 건드리면 쉽다
+sitemap :
+  changefreq : daily
+  priority : 1.0
 ---
 
 ![이제 좀 잘 된다...](/assets/images/221002_1/제목%20없음.png)
