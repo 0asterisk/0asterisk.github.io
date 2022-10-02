@@ -2,6 +2,9 @@
 layout: post
 title: 에어팟이 자꾸 죽는다면 해 볼 방법
 subtitle: 연결이 안되고, 한 쪽만 나오고...
+sitemap :
+  changefreq : daily
+  priority : 0.5
 ---
 
 ## 내 에어팟은 왼쪽만 두 번 죽었다 ㅎㅎ;;
