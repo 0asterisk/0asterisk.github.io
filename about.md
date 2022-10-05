@@ -6,11 +6,11 @@ permalink: /about/
 
 <link rel="stylesheet" href="/_sass/main.scss">
 
-### me 😉
+## me 😉
 enjoying programming web
-<p>&nbsp;</p>
+<br>
 
-### what i can do ✊
+## what i can do ✊
 
 <div class="chip">
   <p style="border-radius: 100px;
@@ -30,9 +30,9 @@ enjoying programming web
     Python <sup>don't ask me</sup>
   </p>
 </div>
+<br>
 
-<p>&nbsp;</p>
-
-### contact 📥
+## contact 📥
 
 [crag-dune0r@icloud.com](mailto:crag-dune0r@icloud.com)
+
