@@ -56,7 +56,7 @@ h4:first-child {
 }
 
 // 해당 사이즈에서 정상적으로 표시
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .post {
     display: block;
   }
