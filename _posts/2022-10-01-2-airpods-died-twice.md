@@ -9,11 +9,11 @@ sitemap :
 
 ## 내 에어팟은 왼쪽만 두 번 죽었다 ㅎㅎ;;
 꼭 필요할 때만 충전이 안되는 난리가 벌어졌다... 아무리 생각해도 말이 안되는게 한 케이스 안에 둘이 있으면서 하나만 충전이 안될 수 있나? 몇 시간을 넣어 둬도 한 쪽만 안되는게 좀 이상했다.
-<br/><br/><br/>
+<br/
 
 ## 내 에어팟에서의 문제
 일단 시작은 왼쪽이 충전이 안되는 것이었고 완전히 방전되어버린 것인지 동작하지 않았다. 공장초기화는 안될 것 처럼 되는데 딱히 큰 효과를 얻지 못했고 한 쪽만 충전시켜보는 것은 실패했다 ㅠ&nbsp; &nbsp; &nbsp;
-<br/><br/><br/>
+<br/>
 
 ## 왜 그렇고 해결책은 뭘까?
 <iframe src="https://jjalbot.com/embed/aYow8lwKz" width="420px" height="235px" frameborder="0" via="Jjalbot__embed" allowfullscreen></iframe><p><a href="https://jjalbot.com/jjals/aYow8lwKz"></a></p>

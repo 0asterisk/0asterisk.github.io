@@ -29,12 +29,48 @@ a:hover {
 
 h1 {
   font-weight: 600;
+  word-break: keep-all;
 }
 
 h2,
 h3,
 h4 {
   margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+// post 나뉜 디자인.
+// 첫 h1~h5 마진 조정
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child {
+  margin-top: 0;
+}
+
+// post.html에서 mt-4와 mt-0이 변경됨. (mt-4는 원본, margin-top: 4;)
+.post {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 10px;
+}
+
+// 해당 사이즈에서 정상적으로 표시
+@media (min-width: 576px) {
+  .post {
+    display: block;
+  }
+
+  h1 {
+    word-break: break-all;
+  }
+  // 마진 조정 필요하지 않으니 제거
+  h1:first-child,
+  h2:first-child,
+  h3:first-child,
+  h4:first-child {
+    margin-top: 1.5rem;
+  }
 }
 
 .navbar {
