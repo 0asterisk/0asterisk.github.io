@@ -3,7 +3,9 @@ layout: default
 ---
 
 <div class="post">
-  <h1>{{ page.title }}</h1>
-  <span class="fs-4 text-muted">{{ page.date | date: "%y.%m.%d" }}</span>
+  <div>
+    <h1>{{ page.title }}</h1>
+    <span class="fs-4 text-muted">{{ page.date | date: "%y.%m.%d" }}</span>
+  </div>
   <div class="mt-4">{{ content }}</div>
 </div>
