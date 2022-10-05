@@ -30,7 +30,6 @@ enjoying programming web
     Python <sup>don't ask me</sup>
   </p>
 </div>
-<br>
 
 ## contact 📥
 
