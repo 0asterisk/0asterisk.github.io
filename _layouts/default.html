@@ -19,19 +19,11 @@
   <!-- Meta Theme Color is also supported on Safari and Chrome -->
   <meta name="theme-color" content="#eeeeee" media="(prefers-color-scheme: dark)" />
   <meta name="theme-color" content="#111111" media="(prefers-color-scheme: light)" />
+  <link rel="preconnect" href="https://www.googletagmanager.com">
+  <link rel="preconnect" href="https://www.google-analytics.com">
   {% seo %} {% feed_meta %} {%- if jekyll.environment == 'production' and
   site.google_analytics -%} {%- include google-analytics.html -%} {%- endif
   -%}
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MTZDHKSE9C"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'G-MTZDHKSE9C');
-  </script>
-</head>
 
 <body class="d-flex flex-column h-100">
   <div class="container">
