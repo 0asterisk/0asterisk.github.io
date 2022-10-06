@@ -15,10 +15,10 @@ lightavatar: /assets/images/light_bauhaus_logo.png
 darkavatar: /assets/images/dark_bauhaus_logo.png
 
 # A short description (e.g., A blog dedicated to reviewing cat gifs), used as part of the title tag like Ben's Awesome Site | A blog dedicated to reviewing cat gifs instead of Ben's Awesome Site | Long description about a blog dedicated to reviewing cat gifs that would be used when page.title is not defined.
-tagline: logging anything
+tagline: Public diary and memos
 
 # A longer description used for the description meta tag. Also used as fallback for pages that don't provide their own description, and also as part of the page's title tag if neither page.title nor site.tagline has been defined.
-description: logging anything
+description: 내 관심 분야 일기장 | EVERYTHING WITH MY INTEREST | Public diary and photos of keyboard, computer, programming, et cetera.
 
 # The full URL to your site. Note: site.github.url will be used by default.
 url: https://nvglow.github.io/
