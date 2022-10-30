@@ -18,7 +18,7 @@ darkavatar: /assets/images/dark_bauhaus_logo.png
 tagline: Public diary and memos
 
 # A longer description used for the description meta tag. Also used as fallback for pages that don't provide their own description, and also as part of the page's title tag if neither page.title nor site.tagline has been defined.
-description: 내 관심 분야 일기장 | EVERYTHING WITH MY INTEREST | Public diary and photos of keyboard, computer, programming, et cetera.
+description: 나의 관심 분야 일기장 | 키보드와 컴퓨터 그리고 찍어온 사진들 | EVERYTHING WITH MY INTEREST | Public diary and photos of keyboard, computer, programming, et cetera.
 
 # The full URL to your site. Note: site.github.url will be used by default.
 url: https://nvglow.github.io/
