@@ -39,21 +39,23 @@ h4 {
   margin-bottom: 0.5rem;
 }
 
-// post 나뉜 디자인.
-// 첫 h1~h5 마진 조정
-h1:first-child,
-h2:first-child,
-h3:first-child,
-h4:first-child {
-  margin-top: 0;
-}
+// @@@@@@@@@@@@@@@@@@ 22.11.08 일체형 디자인으로 원복시킴. 부활하고 싶으면 주석 떼세욧
+// // post 나뉜 디자인.
+// // 첫 h1~h5 마진 조정
+// h1:first-child,
+// h2:first-child,
+// h3:first-child,
+// h4:first-child {
+//   margin-top: 0;
+// }
 
-// post.html에서 mt-4와 mt-0이 변경됨. (mt-4는 원본, margin-top: 4;)
-.post {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-gap: 10px;
-}
+// // post.html에서 mt-4와 mt-0이 변경됨. (mt-4는 원본, margin-top: 4;)
+// .post {
+//   display: grid;
+//   grid-template-columns: 1fr 2fr;
+//   grid-gap: 10px;
+// }
+//
 
 // 해당 사이즈에서 정상적으로 표시
 @media (max-width: 576px) {
@@ -142,7 +144,7 @@ pre.highlight {
   margin-right: 0.25rem !important;
 }
 
-// 전체 사이즈 max-width: 720px; (768px부터)
+// 전체 사이즈 max-width: 720px; << 22.11.08 수정으로 전체 720px
 
 @media (min-width: 576px) {
   .container,
@@ -162,7 +164,7 @@ pre.highlight {
   .container-lg,
   .container-md,
   .container-sm {
-    max-width: 960px;
+    max-width: 720px;
   }
 }
 @media (min-width: 1200px) {
@@ -171,7 +173,7 @@ pre.highlight {
   .container-md,
   .container-sm,
   .container-xl {
-    max-width: 1080px;
+    max-width: 720px;
   }
 }
 @media (min-width: 1400px) {
@@ -181,7 +183,7 @@ pre.highlight {
   .container-sm,
   .container-xl,
   .container-xxl {
-    max-width: 1080px;
+    max-width: 720px;
   }
 }
 
