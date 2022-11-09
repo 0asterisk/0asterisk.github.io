@@ -2,6 +2,7 @@
 
 // 2022.11.09 SCROLLBAR REPOSITIONING SOLUTION.
 html {
+  overflow-x: hidden;
   margin-right: calc(-1 * (100vw - 100%));
 }
 
