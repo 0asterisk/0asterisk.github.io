@@ -190,6 +190,11 @@ pre.highlight {
 //
 
 @media (prefers-color-scheme: dark) {
+  // 2022.11.09 BACKGROUND COLOR OF body IS CHANGED
+  body {
+    background-color: #0f0f0f;
+  }
+
   .footer-icon-links {
     text-decoration: none;
     color: #e1e1e1;
