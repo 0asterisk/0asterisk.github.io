@@ -8,6 +8,8 @@ html {
 body {
   overflow-x: hidden;
   font-family: "Pretendard Variable";
+  line-height: 1.6;
+  color: var(--body-color);
 }
 
 table {
@@ -43,6 +45,16 @@ h3,
 h4 {
   margin-top: 1.5rem;
   margin-bottom: 0.5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: -0.025rem;
+  color: var(--heading-color);
 }
 
 // @@@@@@@@@@@@@@@@@@ 22.11.08 일체형 디자인으로 원복시킴. 부활하고 싶으면 주석 떼세욧
@@ -196,6 +208,12 @@ pre.highlight {
 //
 
 @media (prefers-color-scheme: dark) {
+  // 2022.11.11 heading colors added - dark
+  :root {
+    --heading-color: #e1e1e1;
+    --body-color: #d1d1d1;
+  }
+
   // 2022.11.09 BACKGROUND COLOR OF body IS CHANGED
   body {
     background-color: #0f0f0f;
