@@ -13,22 +13,9 @@ enjoying programming web
 ## what i can do ✊
 
 <div class="chip">
-  <p style="border-radius: 100px;
-  border: solid 2px #939393;
-  padding: 0px 10px;
-  display: inline-block;">
-    HTML & CSS
-  </p> <p style="border-radius: 100px;
-  border: solid 2px #939393;
-  padding: 0px 10px;
-  display: inline-block;">
-    JavaScript
-  </p> <p style="border-radius: 100px;
-  border: solid 2px #939393;
-  padding: 0px 10px;
-  display: inline-block;">
-    Python <sup>don't ask me</sup>
-  </p>
+  <p>HTML & CSS</p>
+  <p>JavaScript</p>
+  <p>Python <sup>don't ask me</sup></p>
 </div>
 
 ## contact 📥
