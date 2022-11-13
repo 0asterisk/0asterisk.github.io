@@ -7,15 +7,16 @@ permalink: /about/
 <link rel="stylesheet" href="/_sass/main.scss">
 
 ## me 😉
-enjoying programming web
+enjoying programming web  
+planned to graduate high school, and going into college!
 <br>
 
 ## what i can do ✊
 
-<div class="chip">
-  <p>HTML & CSS</p>
-  <p>JavaScript</p>
-  <p>Python <sup>don't ask me</sup></p>
+<div>
+  <p class="chip">HTML & CSS</p>
+  <p class="chip">JavaScript</p>
+  <p class="chip">Python <sup>don't ask me</sup></p>
 </div>
 
 ## contact 📥
