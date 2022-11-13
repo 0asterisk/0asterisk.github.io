@@ -75,6 +75,12 @@ h6 {
 // }
 //
 
+.chip {
+  border-radius: 100px;
+  border: solid 2px #939393;
+  padding: 0px 10px;
+  display: inline-block;
+}
 // 해당 사이즈에서 정상적으로 표시
 @media (max-width: 576px) {
   .post {
