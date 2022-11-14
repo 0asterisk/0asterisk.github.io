@@ -7,6 +7,7 @@ permalink: /about/
 <link rel="stylesheet" href="/_sass/main.scss">
 
 ## me 😉
+
 enjoying programming web  
 planned to graduate high school, and going into college!
 <br>
@@ -22,4 +23,3 @@ planned to graduate high school, and going into college!
 ## contact 📥
 
 [crag-dune0r@icloud.com](mailto:crag-dune0r@icloud.com)
-
