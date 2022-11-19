@@ -9,6 +9,7 @@ body {
   overflow-x: hidden;
   font-family: "Pretendard Variable";
   line-height: 1.6;
+  font-weight: 500;
   color: var(--body-color);
 }
 
@@ -29,14 +30,14 @@ img {
 // 링크 hover시 underline
 a {
   text-decoration: none;
+  transition: all 0.2s ease-in-out;
 }
 
-a:hover {
+.body a {
   text-decoration: underline;
 }
 
 h1 {
-  font-weight: 600;
   word-break: keep-all;
 }
 
@@ -53,6 +54,7 @@ h3,
 h4,
 h5,
 h6 {
+  font-weight: 600;
   letter-spacing: -0.025rem;
   color: var(--heading-color);
 }
@@ -181,7 +183,7 @@ pre.highlight {
   .container,
   .container-md,
   .container-sm {
-    max-width: 720px;
+    max-width: 42rem;
   }
 }
 @media (min-width: 992px) {
@@ -189,7 +191,7 @@ pre.highlight {
   .container-lg,
   .container-md,
   .container-sm {
-    max-width: 720px;
+    max-width: 42rem;
   }
 }
 @media (min-width: 1200px) {
@@ -198,7 +200,7 @@ pre.highlight {
   .container-md,
   .container-sm,
   .container-xl {
-    max-width: 720px;
+    max-width: 42rem;
   }
 }
 @media (min-width: 1400px) {
@@ -208,7 +210,7 @@ pre.highlight {
   .container-sm,
   .container-xl,
   .container-xxl {
-    max-width: 720px;
+    max-width: 42rem;
   }
 }
 
