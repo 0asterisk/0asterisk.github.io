@@ -38,7 +38,7 @@
   --bs-font-sans-serif: Pretendard Variable, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+  --bs-font-monospace: Cascadia Code, SFMono-Regular, Menlo, Monaco, Consolas,
     "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(
     180deg,
@@ -2452,7 +2452,9 @@ textarea.form-control-lg {
   border-bottom-right-radius: 0;
 }
 .input-group
-  > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+  > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(
+    .valid-feedback
+  ):not(.invalid-tooltip):not(.invalid-feedback) {
   margin-left: -1px;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
@@ -9723,7 +9725,9 @@ fieldset:disabled .btn {
   .form-control[readonly] {
     background-color: #222;
   }
-  .form-control:hover:not(:disabled):not([readonly])::-webkit-file-upload-button {
+  .form-control:hover:not(:disabled):not(
+      [readonly]
+    )::-webkit-file-upload-button {
     background-color: #383838;
   }
   .form-control:hover:not(:disabled):not([readonly])::file-selector-button {
@@ -9734,7 +9738,9 @@ fieldset:disabled .btn {
     background-color: #3b3b3b;
     border-color: inherit;
   }
-  .form-control:hover:not(:disabled):not([readonly])::-webkit-file-upload-button {
+  .form-control:hover:not(:disabled):not(
+      [readonly]
+    )::-webkit-file-upload-button {
     background-color: #383838;
   }
   .form-control-plaintext {

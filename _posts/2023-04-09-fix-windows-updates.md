@@ -40,7 +40,7 @@ sitemap :
 * **`0x80888002`의 경우**
   * [**이 명령어**](https://github.com/AveYo/MediaCreationTool.bat/blob/main/bypass11/Skip_TPM_Check_on_Dynamic_Update.cmd) 사용.
 
-## **서명되지 않은 드라이버** 제거 방법[^2]  
+## [^2]: **서명되지 않은 드라이버** 제거 방법 
 
 가끔 `bcdedit /set nointegritychecks` 명령어를 통해 서명되지 않은 드라이버들을 강제로 설치해 본 경험이 있을 것이다. 그런데 Windows 업데이트에서 이를 감지하여 오류를 뿜을 수 있다. 그렇기 때문에 제거해주는 것이 좋다.  
   
@@ -70,4 +70,4 @@ sitemap :
 
 ## sources, footnotes
 
-[^1] <https://answers.microsoft.com/zh-hans/insider/forum/all/windows-10-insider-preview/e7ae0ffd-6714-4d0b-9ab5-32dbc17ad55a>, 본인은 MacType를 이용중이었음.
+[^1]: <https://answers.microsoft.com/zh-hans/insider/forum/all/windows-10-insider-preview/e7ae0ffd-6714-4d0b-9ab5-32dbc17ad55a>, 본인은 MacType를 이용중이었음.
