@@ -33,13 +33,15 @@ img {
 
 // 링크 hover시 underline
 a {
-  text-decoration: none;
+  text-decoration: underline;
   transition: all 0.2s ease-in-out;
 }
 
 .body a {
-  text-decoration: underline;
+  text-decoration: none;
 }
+
+//
 
 h1 {
   word-break: keep-all;
