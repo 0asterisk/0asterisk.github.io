@@ -9,7 +9,7 @@ permalink: /about/
 ## me 😉
 
 enjoying programming web  
-planned to graduate high school, and going into college!
+
 <br>
 
 ## what i can do ✊
