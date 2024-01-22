@@ -4,6 +4,10 @@
   src: url("/assets/fonts/CascadiaCode.woff2") format("woff2");
 }
 
+// 20240122 중요!
+// px 단위 지우고 rem 단위로 바꿀 것 (유연성 확보)
+// Fluent UI 생각 좀 해 보세요 https://github.com/microsoft/fluentui
+
 // 2022.11.09 SCROLLBAR REPOSITIONING SOLUTION.
 html {
   margin-right: calc(-1 * (100vw - 100%));
