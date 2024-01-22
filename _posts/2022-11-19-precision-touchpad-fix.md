@@ -1,0 +1,19 @@
+---
+layout: post
+title: 윈도우 10, 11 노트북 터치패드 딜레이 줄이기
+subtitle: 타이핑 한 후 또는 터치패드(트랙패드)에 딜레이가 있다면 줄여보자
+date: 2022-11-19 22:00:00 +0900
+sitemap :
+  changefreq : daily
+  priority : 1.0
+---
+
+![registry editor](/assets/images/221119_1/스크린샷_20221119_100642.png)  
+
+윈도우 레지스트리 편집기(`regedit.exe`)를 켜고 아래 경로로 이동한다.  
+
+```batch
+HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\PrecisionTouchPad
+```
+
+`AAPThreshold` 값을 0으로 바꾼다.  
