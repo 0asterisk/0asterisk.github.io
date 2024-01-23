@@ -228,9 +228,10 @@ pre.highlight {
 }
 
 //
+
 @media (prefers-color-scheme: light) {
   .highlight pre {
-    background-color: #f8f9fa;
+    background-color: #f8f9fa !important;
   }
 }
 
