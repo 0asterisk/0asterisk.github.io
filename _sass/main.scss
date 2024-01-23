@@ -166,10 +166,6 @@ h6 {
   color: #212529;
 }
 
-.highlight {
-  background-color: #272822;
-}
-
 pre.highlight {
   padding: 1rem;
 }
@@ -232,6 +228,11 @@ pre.highlight {
 }
 
 //
+@media (prefers-color-scheme: light) {
+  .highlight {
+    background-color: #f8f9fa;
+  }
+}
 
 @media (prefers-color-scheme: dark) {
   // 2022.11.11 heading colors added - dark
@@ -263,7 +264,12 @@ pre.highlight {
   .light-avatar {
     display: none !important;
   }
+
   .dark-avatar {
     display: inline-block !important;
+  }
+
+  .highlight {
+    background-color: #272822;
   }
 }
