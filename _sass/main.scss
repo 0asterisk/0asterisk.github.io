@@ -183,6 +183,11 @@ pre.highlight {
   margin-right: 0.25rem !important;
 }
 
+// padding 일체화
+.container-fluid {
+  padding: 0px;
+}
+
 // 전체 사이즈 max-width: 720px; << 22.11.08 수정으로 전체 720px
 
 @media (min-width: 576px) {
