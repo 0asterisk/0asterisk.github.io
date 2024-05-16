@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Windows 11 0xc190011f, 0x80888002, 0xC1900108
+title: 0xc190011f, 0x80888002, 0xC1900108
 subtitle: 
 date: 2023-04-09 22:00:00 +0900
 sitemap :

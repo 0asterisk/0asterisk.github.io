@@ -227,8 +227,7 @@ pre.highlight {
   }
 }
 
-//
-
+// !important를 해야 작동 (Bootstrap이랑 겹치는 듯?)
 @media (prefers-color-scheme: light) {
   .highlight pre {
     background-color: #f8f9fa !important;
