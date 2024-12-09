@@ -116,7 +116,7 @@ h6 {
 }
 
 .navbar {
-  // margin-bottom: 2rem;
+  margin-bottom: 0rem;
   // navbar bottom line deleted @ 23/06/05
   // border-bottom: 0.125rem solid hsl(0, 0%, 30%);
 }
@@ -189,11 +189,11 @@ pre.highlight {
 }
 
 .li {
-  margin-bottom: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 
 .ul {
-  margin-top: 0.25rem;
+  padding-top: 0.25rem;
 }
 
 // 전체 사이즈 max-width: 720px; << 22.11.08 수정으로 전체 720px
