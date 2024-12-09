@@ -1,4 +1,5 @@
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.5/dist/web/variable/pretendardvariable.css");
+
 @font-face {
   font-family: "Cascadia Code";
   src: url("/assets/fonts/CascadiaCode.woff2") format("woff2");
@@ -32,6 +33,7 @@ blockquote {
 
 img {
   @extend .img-fluid;
+  margin-top: 0.75rem;
   margin-bottom: 1rem;
 }
 
@@ -103,6 +105,7 @@ h6 {
   h1 {
     word-break: break-all;
   }
+
   // 마진 조정 필요하지 않으니 제거
   h1:first-child,
   h2:first-child,
@@ -113,14 +116,15 @@ h6 {
 }
 
 .navbar {
-  margin-bottom: 2rem;
+  // margin-bottom: 2rem;
   // navbar bottom line deleted @ 23/06/05
   // border-bottom: 0.125rem solid hsl(0, 0%, 30%);
 }
 
 .navbar-brand {
   font-weight: 800;
-  font-family: "Cascadia Code" !important;
+  // font-family: "Cascadia Code" !important;
+  font-family: "Pretendard Variable" !important;
 }
 
 .navbar-toggler {
@@ -184,22 +188,35 @@ pre.highlight {
   padding: 0px;
 }
 
+.li {
+  margin-bottom: 0.25rem;
+}
+
+.ul {
+  margin-top: 0.25rem;
+}
+
 // 전체 사이즈 max-width: 720px; << 22.11.08 수정으로 전체 720px
 
 @media (min-width: 576px) {
+
   .container,
   .container-sm {
     max-width: 540px;
   }
 }
+
 @media (min-width: 768px) {
+
   .container,
   .container-md,
   .container-sm {
     max-width: 42rem;
   }
 }
+
 @media (min-width: 992px) {
+
   .container,
   .container-lg,
   .container-md,
@@ -207,7 +224,9 @@ pre.highlight {
     max-width: 42rem;
   }
 }
+
 @media (min-width: 1200px) {
+
   .container,
   .container-lg,
   .container-md,
@@ -216,7 +235,9 @@ pre.highlight {
     max-width: 42rem;
   }
 }
+
 @media (min-width: 1400px) {
+
   .container,
   .container-lg,
   .container-md,
@@ -235,6 +256,7 @@ pre.highlight {
 }
 
 @media (prefers-color-scheme: dark) {
+
   // 2022.11.11 heading colors added - dark
   :root {
     --heading-color: #e1e1e1;
