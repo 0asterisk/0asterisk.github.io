@@ -71,6 +71,11 @@ h6 {
   color: var(--heading-color);
 }
 
+// h1.archive-year의 first-child margin-top 제거
+h1.archive-year:first-child {
+  margin-top: 0;
+}
+
 // @@@@@@@@@@@@@@@@@@ 22.11.08 일체형 디자인으로 원복시킴. 부활하고 싶으면 주석 떼세욧
 // // post 나뉜 디자인.
 // // 첫 h1~h5 마진 조정
@@ -131,6 +136,10 @@ h6 {
   padding: 0px;
 }
 
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
 .archive-year {
   margin-top: 2rem;
   margin-bottom: 1rem;
@@ -185,7 +194,10 @@ pre.highlight {
 
 // padding 일체화
 .container-fluid {
-  padding: 0px;
+  padding: 0 8px;
+  background-color: #272822;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #272822;
 }
 
 .li {
