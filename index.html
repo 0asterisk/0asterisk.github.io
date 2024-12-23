@@ -8,8 +8,8 @@ layout: default
   <h1 class="archive-year">{{ currDate }}</h1>
   {% assign date = currDate %} {% endif %}
   <div class="archive-item">
+    <a href="{{ post.url | relative_url }}" class="archive-title fs-6">{{ post.title }}</a>
     <span class="post-date archive-date font-monospace fs-4 ">{{ post.date | date: "%Y %b %d" }}</span>
-    <a href="{{ post.url | relative_url }}" class="archive-title fs-4">{{ post.title }}</a>
   </div>
   {% endfor %}
 </div>
